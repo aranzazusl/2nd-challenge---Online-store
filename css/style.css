@@ -1,0 +1,52 @@
+header{
+    background-color: gray;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    text-align: center;
+    font-size: x-large;
+    position: relative;
+}
+
+li {
+    text-align: right;
+    width: 100px;
+    padding-right: 150px;
+    background-color: white;
+    list-style-type: none;
+}
+
+.cart ion-icon{
+    vertical-align: middle;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.product-card {
+    padding: 1.5%;
+    flex-grow: 1;
+    flex-basis: 15%;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 100px;
+}
+
+.product-info {
+    line-height: 0.10;
+}
+
+
+@media (max-width: 600px) {
+    .product-card {
+      flex: 46%;
+      flex-direction: column;
+    }
+  }
